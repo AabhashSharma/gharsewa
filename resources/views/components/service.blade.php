@@ -17,7 +17,7 @@
     </p>
 
     <!-- View Packages and Button -->
-    <div class="w-full flex flex-wrap items-center gap-6 bg-gray-50 rounded-xl p-4 border border-gray-200 mb-8">
+    <div class="w-full flex flex-wrap items-center gap-6 p-4 mb-8">
       <h4 class="text-xl font-semibold text-gray-700 tracking-wide">View Packages</h4>
       <a href="#"
          class="bg-gray-700 text-white px-6 py-3 rounded-lg hover:bg-gray-800 shadow font-semibold transition">
@@ -59,7 +59,7 @@
     </p>
 
     <!-- View Packages and Button -->
-    <div class="w-full flex flex-wrap items-center gap-6 bg-gray-50 rounded-xl p-4 border border-gray-200 mb-8">
+    <div class="w-full flex flex-wrap items-center gap-6  p-4 mb-8">
       <h4 class="text-xl font-semibold text-gray-700 tracking-wide">View Packages</h4>
       <a href="#"
          class="bg-gray-700 text-white px-6 py-3 rounded-lg hover:bg-gray-800 shadow font-semibold transition">
@@ -99,7 +99,7 @@
     </p>
 
     <!-- View Packages and Button -->
-    <div class="w-full flex flex-wrap items-center gap-6 bg-gray-50 rounded-xl p-4 border border-gray-200 mb-8">
+    <div class="w-full flex flex-wrap items-center gap-6 p-4 mb-8">
       <h4 class="text-xl font-semibold text-gray-700 tracking-wide">View Packages</h4>
       <a href="#"
          class="bg-gray-700 text-white px-6 py-3 rounded-lg hover:bg-gray-800 shadow font-semibold transition">
@@ -140,7 +140,7 @@
     </p>
 
     <!-- View Packages and Button -->
-    <div class="w-full flex flex-wrap items-center gap-6 bg-gray-50 rounded-xl p-4 border border-gray-200 mb-8">
+    <div class="w-full flex flex-wrap items-center gap-6  p-4 mb-8">
       <h4 class="text-xl font-semibold text-gray-700 tracking-wide">View Packages</h4>
       <a href="#"
          class="bg-gray-700 text-white px-6 py-3 rounded-lg hover:bg-gray-800 shadow font-semibold transition">

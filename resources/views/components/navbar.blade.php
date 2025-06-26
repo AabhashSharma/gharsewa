@@ -1,4 +1,4 @@
-  <nav class="flex bg-white shadow-md px-10 py-4 justify-between items-center sticky top-0 z-50">
+<nav class="flex bg-white shadow-md px-10 py-4 justify-between items-center sticky top-0 z-50">
     <a href="/Landingpage" class="flex items-center space-x-4">
       <img src="{{ asset('images/Gharsewaicon.jpg') }}" alt="GharSewa Logo" class="w-25 h-20 rounded-full" />
       <span class="text-3xl font-extrabold text-gray-700 tracking-wide">GharSewa</span>

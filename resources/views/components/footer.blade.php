@@ -9,6 +9,8 @@
       <div>
         <h4 class="font-semibold text-xl mb-4 tracking-wide">Contact Us</h4>
         <p class="text-sm mb-2">Phone: +977-9745619727</p>
+        <p class="text-sm mb-2">Phone: +977-9746367565</p>
+        <p class="text-sm mb-2">Phone: +977-9745619727</p>
         <p class="text-sm mb-2">Email: support@gharsewa.com</p>
         <p class="text-sm">Address: Kathmandu, Nepal</p>
       </div>
