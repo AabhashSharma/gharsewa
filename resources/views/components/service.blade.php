@@ -1,4 +1,4 @@
-<section id="services" class="bg-gray-100 py-24 px-6">
+<section id="services" class="scroll-mt-24 bg-gray-100 py-24 px-6">
     <div class="max-w-7xl mx-auto">
       <h2 class="text-5xl font-bold text-center text-gray-700 mb-14 tracking-wide">Our Services</h2>
       <p class="text-center text-lg text-gray-700 mb-20 max-w-3xl mx-auto leading-relaxed">

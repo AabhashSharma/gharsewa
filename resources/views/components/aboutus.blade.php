@@ -1,4 +1,4 @@
-<section id="about" class="relative bg-gradient-to-b from-white via-slate-50 to-white py-24 px-6 md:px-16 text-black overflow-hidden">
+<section id="about" class=" relative bg-gradient-to-b from-white via-slate-50 to-white py-24 px-6 md:px-16 text-black overflow-hidden">
   <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-20">
 
     <!-- Left Content -->

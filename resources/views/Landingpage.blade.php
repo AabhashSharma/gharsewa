@@ -31,34 +31,6 @@
    <x-navbar />
 
 
-  <!-- Hero Section -->
-  <!-- <section class="relative">
-  <img
-    src="{{ asset('images/Gharsewaicon.jpg') }}"
-    alt="Hero Image"
-    class="w-full h-150  object-cover filter brightness-90"
-  />
-  <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2">
-    <a
-      href="#"
-      class="bg-gray-700 text-white px-6 py-2 rounded-full text-base font-medium shadow hover:bg-gray-800 transition">
-      Register Property
-    </a>
-  </div>
-</section> -->
-
-<!-- <div class="w-full max-w-sm mx-auto text-center">
-  <img
-    src="{{ asset('images/Gharsewaicon.jpg') }}"
-    alt="Gharsewa Logo"
-    class="w-full h-full object-contain mx-auto mb-4"/>
-
-  <a href="#"
-    class="bg-gray-700 text-white px-6 py-2 rounded-full text-base font-medium shadow hover:bg-gray-800 transition">
-    Register Property
-  </a>
-</div> -->
-
 
 <div class="relative w-full min-h-[85vh] overflow-hidden">
   <!-- Background Images -->
@@ -84,9 +56,13 @@
 
 
 
+
   <x-aboutus />
 
   <x-service />
+
+  <x-contactus />
+
 
   <x-footer />
 

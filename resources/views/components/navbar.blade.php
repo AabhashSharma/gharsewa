@@ -11,6 +11,6 @@
     </div>
     <div class="space-x-4">
       <a href="{{route('login')}}"><button class="bg-white border border-gray-700 text-gray-700 px-6 py-2 rounded-lg hover:bg-gray-100 transition">Login</button></a>
-      <a href="{{('register')}}"><button class="bg-gray-700 text-white px-6 py-2 rounded-lg hover:bg-gray-800 transition">Register</button></a>
+      <a href="{{route('register')}}"><button class="bg-gray-700 text-white px-6 py-2 rounded-lg hover:bg-gray-800 transition">Register</button></a>
     </div>
   </nav>
