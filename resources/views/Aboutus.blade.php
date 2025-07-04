@@ -1,5 +1,21 @@
-<section  class=" relative bg-gradient-to-b from-white via-slate-50 to-white py-24 px-6 md:px-16 text-black overflow-hidden">
-  <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-20">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="icon" href="{{ asset('images/Gharsewa.jpg') }}" type="image/jpeg" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <x-navbar />
+
+    <section  class=" relative bg-gradient-to-b from-white via-slate-50 to-white py-10 px-6 md:px-16 text-black overflow-hidden">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-20">
 
     <!-- Left Content -->
     <div class="md:w-1/2 text-left relative z-10">
@@ -50,3 +66,9 @@
   <div class="absolute top-0 left-0 w-72 h-72 bg-gray-100 rounded-full opacity-30 blur-3xl animate-pulse -z-10"></div>
   <div class="absolute bottom-0 right-0 w-72 h-72 bg-gray-300 rounded-full opacity-20 blur-3xl animate-pulse -z-10"></div>
 </section>
+
+<x-footer />
+
+    
+</body>
+</html>

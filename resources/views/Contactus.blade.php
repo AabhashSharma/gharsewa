@@ -1,5 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="icon" href="{{ asset('images/Gharsewa.jpg') }}" type="image/jpeg" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
- <div class="bg-gray-100 text-gray-800 p-10">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <x-navbar />
+
+    <div class="bg-gray-100 text-gray-800 p-10">
     <div class="w-full flex flex-col lg:flex-row gap-x-32 ">
     
     <div class="lg:w-1/2 space-y-10 px-4">
@@ -85,3 +100,10 @@
     </div>
   </div>
 </div>
+
+
+<x-footer />
+
+    
+</body>
+</html>

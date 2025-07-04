@@ -1,4 +1,21 @@
-<section  class="scroll-mt-24 bg-gray-100 py-24 px-6">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="{{ asset('images/Gharsewa.jpg') }}" type="image/jpeg" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <x-navbar />
+
+
+    <section  class="scroll-mt-24 bg-gray-100 py-24 px-6">
     <div class="max-w-7xl mx-auto">
       <h2 class="text-5xl font-bold text-center text-gray-700 mb-14 tracking-wide">Our Services</h2>
       <p class="text-center text-lg text-gray-700 mb-20 max-w-3xl mx-auto leading-relaxed">
@@ -7,7 +24,7 @@
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
         <!-- Cleaning Service -->
         <div class="bg-white rounded-3xl shadow-lg p-10 flex flex-col gap-10 transition-transform hover:scale-[1.03] duration-300">
-  <div class="w-full">
+    <div class="w-full">
     <h3 class="text-3xl font-extrabold text-gray-700 mb-6 tracking-wide">
       Cleaning Service
     </h3>
@@ -172,3 +189,8 @@
 </div>
 </div>
 </section>
+
+<x-footer />
+    
+</body>
+</html>

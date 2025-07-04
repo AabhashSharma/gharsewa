@@ -4,6 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
   <link rel="icon" href="{{ asset('images/Gharsewa.jpg') }}" type="image/jpeg" />
   <title>Gharsewa - Care for Your Property</title>
 
@@ -32,7 +39,7 @@
 
 
 
-<div class="relative w-full min-h-[85vh] overflow-hidden">
+<div class="relative w-full min-h-[87vh] overflow-hidden">
   <!-- Background Images -->
   <img src="{{ asset('images/1.png') }}" class="absolute inset-0 w-full h-full object-cover opacity-100 animate-fade" />
   <img src="{{ asset('images/2.png') }}" class="absolute inset-0 w-full h-full object-cover opacity-0 animate-fade delay-5s" />
@@ -62,7 +69,6 @@
   <x-service />
 
   <x-contactus />
-
 
   <x-footer />
 
