@@ -1,5 +1,4 @@
-
- <div class="bg-gray-100 text-gray-800 p-10">
+ <div class=" text-gray-800 p-10">
     <div class="w-full flex flex-col lg:flex-row gap-x-32 ">
     
     <div class="lg:w-1/2 space-y-10 px-4">

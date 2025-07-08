@@ -1,107 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Device & Appliance Support Packages | GharSewa</title>
     <link rel="icon" href="{{ asset('images/Gharsewa.jpg') }}" type="image/jpeg" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet" />
 </head>
-<body class="bg-gray-100 font-sans">
+<body class="bg-gray-100 font-sans text-gray-800">
 
     <x-navbar />
 
-    <div class="max-w-7xl mx-auto py-12 px-6">
-        <h1 class="text-4xl font-extrabold text-center text-gray-800 mb-6">Device & Appliance Support Packages</h1>
-        
-        <p class="text-center text-gray-600 max-w-2xl mx-auto mb-4">
-            We provide setup, repair, and maintenance for essential devices like printers, tube lights, scanners, projectors, and more.
-        </p>
-        <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">
-            Our skilled technicians ensure your equipment stays efficient and functional at home or in the office.
-        </p>
+    <section class="max-w-7xl mx-auto px-6 py-16">
+        <div class="text-center mb-14">
+            <h1 class="text-5xl font-extrabold text-gray-900 leading-tight mb-4">Device & Appliance Support Packages</h1>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                Select from monthly, 6-month, or annual support plans tailored for home and office appliances.
+            </p>
+        </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
 
-            <!-- Package 1: AppFix -->
-            <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl border border-gray-200 transition">
-                <h2 class="text-2xl font-bold text-gray-700 mb-2">AppFix</h2>
-                <p class="text-sm text-gray-600 mb-4">Basic repairs for small household devices</p>
+            <!-- 1 Month Plan -->
+            <div class="bg-white rounded-3xl border border-gray-200 shadow-md hover:shadow-xl transform hover:-translate-y-1 transition duration-300 p-8 flex flex-col">
+                <img src="{{ asset('images/printer.jpg') }}" alt="1 Month Plan" class="w-full h-40 object-cover rounded-xl mb-4" loading="lazy" />
+                <h2 class="text-2xl font-bold text-gray-800 mb-1">1 Month Plan</h2>
+                <p class="text-sm text-gray-500 mb-4">Support for essential device repairs & setup.</p>
 
-                <div class="text-sm text-gray-700 mb-4">
-                    <p><strong>Duration:</strong> 1 Month</p>
-                    <p><strong>Frequency:</strong> One visit</p>
-                    <p><strong>Price:</strong> Rs. 999</p>
-                </div>
+                <p class="text-base mb-2"><strong>Duration:</strong> 1 Month</p>
+                <p class="text-3xl text-gray-700 font-extrabold mb-4">Rs. 999</p>
 
-                <ul class="list-disc list-inside text-gray-800 space-y-1 mb-6">
-                    <li>Tube light replacement & testing</li>
-                    <li>Fan & socket fixes</li>
-                    <li>Basic printer setup</li>
-                    <li>Scanner connectivity check</li>
+                <ul class="space-y-2 text-sm text-gray-700 mb-6">
+                    <li><i class="bi bi-check-circle-fill text-green-600 mr-2"></i>Tube light replacement & testing</li>
+                    <li><i class="bi bi-check-circle-fill text-green-600 mr-2"></i>Fan & socket fixes</li>
+                    <li><i class="bi bi-check-circle-fill text-green-600 mr-2"></i>Printer setup</li>
+                    <li><i class="bi bi-check-circle-fill text-green-600 mr-2"></i>Scanner connectivity check</li>
                 </ul>
 
-                <p class="text-sm text-gray-500 mb-4">SMS report on completion</p>
-
-                <button class="w-full bg-gray-600 text-white py-2 rounded-lg hover:bg-gray-800 transition">
-                    Subscribe
-                </button>
+                <p class="text-xs text-gray-500">SMS report after each visit</p>
             </div>
 
-            <!-- Package 2: SmartGear -->
-            <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl border border-gray-200 transition">
-                <h2 class="text-2xl font-bold text-gray-700 mb-2">SmartGear</h2>
-                <p class="text-sm text-gray-600 mb-4">Advanced care for multi-device homes</p>
+            <!-- 6 Month Plan -->
+            <div class="bg-white rounded-3xl border-2 border-yellow-400 shadow-xl relative p-8 transform hover:-translate-y-1 transition duration-300 flex flex-col">
+                <span class="absolute top-0 right-0 bg-yellow-400 text-white text-xs font-bold px-4 py-1 rounded-bl-2xl rounded-tr-2xl shadow-md">Most Popular</span>
+                <img src="{{ asset('images/projector.jpeg') }}" alt="6-Month Plan" class="w-full h-40 object-cover rounded-xl mb-4" loading="lazy" />
+                <h2 class="text-2xl font-bold text-gray-800 mb-1">6 Month Plan</h2>
+                <p class="text-sm text-gray-500 mb-4">Mid-term support with extended device coverage.</p>
 
-                <div class="text-sm text-gray-700 mb-4">
-                    <p><strong>Duration:</strong> 1 Month</p>
-                    <p><strong>Frequency:</strong> Two visits</p>
-                    <p><strong>Price:</strong> Rs. 1799</p>
-                </div>
+                <p class="text-base mb-2"><strong>Duration:</strong> 6 Months</p>
+                <p class="text-3xl text-yellow-500 font-extrabold mb-4">Rs. 5499</p>
 
-                <ul class="list-disc list-inside text-gray-800 space-y-1 mb-6">
-                    <li>All from AppFix</li>
-                    <li>Projector setup & testing</li>
-                    <li>Printer ink system check</li>
-                    <li>Tube light fixture cleaning</li>
+                <ul class="space-y-2 text-sm text-gray-700 mb-6">
+                    <li><i class="bi bi-check-circle-fill text-green-600 mr-2"></i>Includes 1 Month services</li>
+                    <li><i class="bi bi-check-circle-fill text-green-600 mr-2"></i>Projector setup & testing</li>
+                    <li><i class="bi bi-check-circle-fill text-green-600 mr-2"></i>Printer ink system check</li>
+                    <li><i class="bi bi-check-circle-fill text-green-600 mr-2"></i>Tube light fixture cleaning</li>
                 </ul>
 
-                <p class="text-sm text-gray-500 mb-4">Dashboard updates with photo proof</p>
-
-                <button class="w-full bg-gray-600 text-white py-2 rounded-lg hover:bg-gray-800 transition">
-                    Subscribe
-                </button>
+                <p class="text-xs text-gray-500">Photo report via dashboard</p>
             </div>
 
-            <!-- Package 3: AppliCare -->
-            <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl border border-gray-300 transition">
-                <h2 class="text-2xl font-bold text-gray-700 mb-2">AppliCare</h2>
-                <p class="text-sm text-gray-600 mb-4">Full coverage for tech-heavy households or offices</p>
+            <!-- 12 Month Plan -->
+            <div class="bg-white rounded-3xl border border-gray-300 shadow-md hover:shadow-xl transform hover:-translate-y-1 transition duration-300 p-8 flex flex-col">
+                <img src="{{ asset('images/scanner.jpeg') }}" alt="Annual Plan" class="w-full h-40 object-cover rounded-xl mb-4" loading="lazy" />
+                <h2 class="text-2xl font-bold text-gray-800 mb-1">12 Month Plan</h2>
+                <p class="text-sm text-gray-500 mb-4">Long-term device care for homes & businesses.</p>
 
-                <div class="text-sm text-gray-700 mb-4">
-                    <p><strong>Duration:</strong> 3 Months</p>
-                    <p><strong>Frequency:</strong> Monthly (3 visits)</p>
-                    <p><strong>Price:</strong> Rs. 4999</p>
-                </div>
+                <p class="text-base mb-2"><strong>Duration:</strong> 12 Months</p>
+                <p class="text-3xl text-indigo-600 font-extrabold mb-4">Rs. 11399</p>
 
-                <ul class="list-disc list-inside text-gray-800 space-y-1 mb-6">
-                    <li>All from SmartGear</li>
-                    <li>Printer & scanner deep diagnostics</li>
-                    <li>Projector lens cleaning</li>
-                    <li>Wiring & surge protection audit</li>
+                <ul class="space-y-2 text-sm text-gray-700 mb-6">
+                    <li><i class="bi bi-check-circle-fill text-green-600 mr-2"></i>Includes 6 Month services</li>
+                    <li><i class="bi bi-check-circle-fill text-green-600 mr-2"></i>Printer & scanner diagnostics</li>
+                    <li><i class="bi bi-check-circle-fill text-green-600 mr-2"></i>Projector lens cleaning</li>
+                    <li><i class="bi bi-check-circle-fill text-green-600 mr-2"></i>Surge protection audit</li>
                 </ul>
 
-                <p class="text-sm text-gray-500 mb-4">Completion report + expert rating</p>
-
-                <button class="w-full bg-gray-600 text-white py-2 rounded-lg hover:bg-gray-800 transition">
-                    Subscribe
-                </button>
+                <p class="text-xs text-gray-500">Final report with technician rating</p>
             </div>
 
         </div>
-    </div>
+
+        <div class="pt-10 text-center">
+            <a href="#">
+              <button class="bg-gray-700 hover:bg-gray-800 text-white font-semibold py-3 px-6 rounded-xl text-lg transition-all duration-300">
+                Book Maintenance Package
+             </button>
+            </a>
+        </div>
+    </section>
 
     <x-footer />
 

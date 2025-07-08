@@ -20,7 +20,7 @@
         <div class="flex flex-wrap gap-7">
             <a href="/Faq" class="">FAQs</a>
             <a href="/TermsAndCondition" class="">Terms & Conditions</a>
-            <a href="#" class="">Privacy Policy</a>
+            <a href="/PrivacyPolicy" class="">Privacy Policy</a>
         </div>
     </div>
     

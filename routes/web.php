@@ -8,12 +8,17 @@ use App\Http\Controllers\MakeController;
 // });
 
 Route::get("/" , [MakeController::class , "Landingpage"]);
+
 Route::get("/Faq" , [MakeController::class , "Faq"]);
 Route::get("/TermsAndCondition" , [MakeController::class , "TermsAndCondition"]);
+Route::get("/PrivacyPolicy" , [MakeController::class , "PrivacyPolicy"]);
 
 Route::get("/Home" , [MakeController::class , "Home"]);
 Route::get("/Aboutus" , [MakeController::class , "Aboutus"]);
-Route::get("/Contactus" , [MakeController::class , "Contactus"]);
+// Route::get("/Contactus" , [MakeController::class , "Contactus"]);
+Route::get('/Contactus', [MakeController::class, 'Contactus'])->name('contact.form');
+Route::post('/Contactus', [MakeController::class, 'submitContact'])->name('contact.submit');
+
 Route::get("/Service" , [MakeController::class , "Service"]);
 
 Route::get("/CleaningPackage" , [MakeController::class , "CleaningPackage"]);
